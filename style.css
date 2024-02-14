@@ -1,0 +1,67 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  color: #333;
+}
+
+.container {
+  width: 20rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.card-input {
+  background-color: #e5e5e5;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  width: 14.7rem;
+  height: 1.5rem;
+  text-align: center;
+  font-size: 1rem;
+
+  &:focus {
+    outline: 1px solid #555;
+  }
+}
+
+.cards {
+  display: flex;
+  margin: 0.5rem 0;
+  gap: 0.5rem;
+}
+
+.card-icon {
+  width: 47px;
+  height: 33px;
+  border-radius: 5px;
+  background-size: contain;
+  opacity: 0.2;
+}
+
+.icon-visa {
+  background-image: url('/img/visa.png');
+}
+
+.icon-mastercard {
+  background-image: url('/img/master-card.png');
+}
+
+.icon-amex {
+  background-image: url('/img/amex.png');
+}
+
+.icon-discover {
+  background-image: url('/img/discover.png');
+}
+
+.icon-diners {
+  background-image: url('/img/diners.png');
+}
+
+.active {
+  opacity: 1;
+}
